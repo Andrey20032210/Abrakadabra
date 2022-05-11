@@ -1,0 +1,271 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en" style="overflow-x: hidden">
+	<head>
+		<style type="text/css">
+			body
+			{background-image: url(images/bg.png);}
+		</style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+			<script src="https //cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+			<!-- <script src="/js/main.js"></script> -->
+		<!-- <link rel="manifest" href="../manifest.json"> -->
+		<meta name="viewport" content="width=320, initial-scale=1.0"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<title>Homepage--AGRIDERA</title>
+		<!--script>
+			if('serviceWorker' in navigator){
+				navigator.serviceWorker
+				.register('/sw.js')
+				.then(function(){
+					console.log('Service worker registered!');
+				});
+			}
+		</script--> 
+	</head>
+	<body style="overflow-x: hidden">
+		<header class="header0" STYLE="background:transparent">
+			<div class="nav_c">	
+				<nav class="navbar navbar-light bg-transparent">
+					<a class="navbar-brand" href="index.html">
+						<img src="images/Logo.png" alt="" height="115px">
+					</a>
+					
+					<button class="navbar-toggler" type="button" data-target="#my-nav" data-toggle="collapse" style="margin-right:10px">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<p  style="display:block;margin:0 auto; margin-top:40px;"><input type="search" name="s1" style="font-size:21px;" value="Search">   <button type="button" class="btn btn-link"><img src="images/ico_search.png" alt="ico_search" class="ico_search"></button></p>
+					<div id="my-nav" class="collapse navbar-collapse">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Company Profile</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="tomatoall.html">Products</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">R&D</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contactus.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			
+			<div class="row" id="own_header" style="width:1200px;margin:0 auto;margin-top:30px"> 
+				<div class="col-md-3" align=left><img src="images/Logo.png" alt="Logo" class="Logo"></div> 
+				<div class="col-md-2"></div>
+				<div class="col-md-7">
+					<p  style="padding-left:255px"><input type="search" class="search" name="s1">   <button type="button" class="btn btn-link"><img src="images/ico_search.png" alt="ico_search" class="ico_search"></button></p>
+					<div class="navigation"><a href="index.html">Home </a> <a href="#"> Company Profile </a> <a href="tomatoall.html"> Products </a> <a href="#"> Services </a> <a href="#"> R & D </a> <a href="contactus.html"> Contact </a></p></div>
+				</div>	
+			</div>
+		</header>
+		<div class="main_sign">
+			<h1 class="h1_main">Agridera Seeds and Agriculture Ltd</h1>
+			<button type="button" class="btn btn-success btn-lg" id="read_more">Read More</button>
+			<!-- <p><button type="button" id="showDialoge">SUBSCRIBE FOR PUSH NOTIFICATIONS</button> -->
+			<div id="dialoge" style="position: fixed bottom; display:none;">Would you like to receive notifications?
+				<p><button type="button" class="subscribe-for-push" id="successfulDialoge" style="margin-top:10px;margin-right: 10px;">YES</button><button type="button" id="hideDialoge">NO</button>
+			</div>
+		</div>
+		<div class="products" style="margin-left: 0 auto;margin-right: 0 auto">
+		<div class="row"  style="margin: 0 auto;">
+			<div class="col-xs-0 col-sm-0 col-md-0 col-lg-1"></div>
+			<div class="col-sm-12 col-md-5 col-lg-1"><img src="images/wheat.png" alt="Products"></div>
+			<div class="col-sm-12 col-md-6 col-lg-2"><img src="images/conf_watermelon.png" alt="Products"></div>
+			<div class="col-sm-12 col-md-5 col-lg-1"><img src="images/clover.png" alt="Products"></div>
+			<div class="col-sm-12 col-md-6 col-lg-2"><img src="images/conf_sunflower.png" alt="Products"></div>
+			<div class="col-sm-12 col-md-5 col-lg-1"><img src="images/tomato.png" alt="Products"></div>
+			<div class="col-sm-12 col-md-6 col-lg-2"><img src="images/eggplant.png" alt="Products"></div>
+			<div class="col-sm-12 col-md-11 col-lg-2"><img src="images/sunflow_img.png" alt="Products" style="display: block;margin: 0 auto;">
+								  <br><img src="images/ornam_sunflow.png" alt="Products" style="margin-top:-16px"></div>
+			
+		</div>
+		</div>
+		
+		<div class="vis_mis">
+			<div class="row">
+				<div class="col-xs-0 col-sm-0 col-md-3"></div>
+				<div class="col-xs-12 col-sm-12 col-md-3" align=left style="padding-top:8%;margin-left:10px">
+					<div class="h_home">Vision</div>
+					<div class="gr_stars">*****</div>
+					<div class="usual_text">We believe in long-term growth with an emphasis
+											<br>on the potential of emerging markets. We also
+											<br>support the global need of feeding the growing
+											<br>population.</div>
+				</div>
+				<div class="col-xs-12 col-md-5" align=left style="padding-top:40px; padding-left:20px"><img src="images/image_3.png" alt="vision_pic" class="mis_pic" id="first"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-5" align=left style="padding-top:40px; padding-left:50px"><img src="images/image_2.png" alt="vision_pic"  class="mis_pic"></div>
+				<div class="col-md-3" id="mission" align=left style="padding-top:7%">
+					<div class="h_home">Mission</div>
+					<div class="gr_stars">*****</div>
+					<div class="usual_text">Breeding and marketing seeds for advanced field
+											<br>crops and vegetable varieties that provide an added
+											<br>value to all supply chain partners.</div>
+				</div>
+				<!--<div class="col-md-1"></div>-->
+			</div>
+			<div class="row" align=center style="padding-top:150px" id="above_tr">
+				<div class="col-md-12">
+					<div class="h_home" id="bot_h">Agridera's main activities</div>
+					<div class="gr_stars" id="bot_h_s">*****</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="triple_pic_block">
+			
+			<div class="row" id="tripp">
+				<div class="col-md-0 col-lg-2"></div>
+				<div class="col-md-12 col-lg-2">
+					<img src="images/open_field_seeds.png" alt="cotton" height=230px class="tr_pic_marg">
+					<div class="gr_caption"><a href="#" id="gr_caption">Open field crop seeds</a></div>
+					<hr color=green width=70%>
+					wheat, cotton, legumes,
+					<br>hybrid confection sunflower
+					<div class="capitals" style="background-color:aqua;column-count: 2;">
+						<div class="col-1"></div>
+					</div>
+				</div>
+				<div class="col-md-0 col-lg-1"></div>
+				<div class="col-md-12 col-lg-2">
+					<img src="images/vegetable_seeds.png" alt="tomato">
+					<div class="gr_caption"><a href="#" id="gr_caption">Vegetable seeds</a></div>
+					<hr color=green width=70%>
+					hybrid open field tomatoes,
+					<br>eggplant, onion, paprika, etc.
+				</div>
+				<div class="col-md-0 col-lg-1"></div>
+				<div class="col-md-12 col-lg-2">
+					<img src="images/ornamental_seeds.png" alt="sunflower" style="padding-top:20px">
+					<div class="gr_caption"><a href="#" id="gr_caption">Ornamental seeds</a></div>
+					<hr color=green width=70%>
+					hybrid cut sunflowers, hybrid
+					<br>patio tomatoes, Bells of Irland, etc.
+				</div>
+			</div>
+						
+		</div>
+		
+		<div class="almost_footer">
+			<div class="row" align=center>
+				<div class="bottom_navig">
+					<div class="col-md-10 col-lg-12">
+						<span class="bot_nav">
+						<a href="#" id="bott">PROFILE</a>
+						<a href="#" id="bott">MANAGEMENT</a>
+						<a href="#" id="bott">PRODUCTS</a>
+						<a href="#" id="bott">R&D</a>
+						<a href="#" id="bott">LINKS</a>
+						<a href="#" id="bott">SITEMAP</a>
+						<a href="#" id="bott">CONTACT</a></span>
+						<span id="soc_media" style="word-spacing: 20px;">
+                        <img src="images/Ico_in.png" width="30" height="30">
+                        <img src="images/Ico_inst.png" width="30" height="30">
+                        <img src="images/Ico_tube.png" width="30" height="30">
+                        <img src="images/Ico_tw.png" width="30" height="30">
+                        <img src="images/Ico_fb.png" width="30" height="30"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			AGRIDERA SEEDS & AGRICULTURE LTD. © 2020
+		</footer>
+		<script>
+			fetch('https://restcountries.eu/rest/v2/regionalbloc/eu')
+			.then((response) => {
+				return response.json();
+			})
+			.then((resp) => {
+				const capitalsList=document.createElement('ul');
+				capitalsList.classList.add("capitals");
+				const capitalsList1=document.createElement('ul');
+				capitalsList.classList.add("capitals1");
+				var lengthOfList = resp.length;
+				resp.forEach(function(item,index) {
+					
+					if(index<lengthOfList/2){
+						var listViewItem = document.createElement('li');
+						listViewItem.appendChild(document.createTextNode(item.capital));
+						capitalsList.appendChild(listViewItem);
+					}else{
+						var listViewItem = document.createElement('li');
+						listViewItem.appendChild(document.createTextNode(item.capital));
+						capitalsList1.appendChild(listViewItem);
+					}
+				});
+				document.getElementsByClassName("capitals")[0].getElementsByClassName("col-1")[0].appendChild(capitalsList);
+				document.getElementsByClassName("capitals")[0].getElementsByClassName("col-1")[0].appendChild(capitalsList1);
+			});
+		</script>
+		<script>
+			function askPermission(){
+				return new Promise(function(resolve, reject){
+					const permissionResult = Notification.requestPermission(function(result){
+						resolve(result);
+					});
+
+					if (permissionResult) {
+						permissionResult.then(resolve, reject);
+					}
+				})
+				.then(function(permissionResult){
+					if (permissionResult !=='granted') {
+						throw new Error('We weren`t granted permission.');
+					}
+				});
+			}
+
+			if ('serviceWorker' in navigator){
+				navigator.serviceWorker
+				.register('/sw.js')
+				.then(function() {
+					console.log('Service Worker registered!');
+				});
+
+				navigator.serviceWorker.ready.then(registration => {
+					if ('PushManager' in window) {
+						document.querySelector('button.subscribe-for-push')
+						.addEventListener('click', () => {
+							askPermission()
+						});
+					}
+				});
+			}
+		</script>
+		<script>
+			let dialoge = document.getElementById("dialoge")
+			let show = document.getElementById("showDialoge")
+			let hide = document.getElementById("hideDialoge")
+			let success = document.getElementById("successfulDialoge")
+
+			success.addEventListener("click",() =>{
+				dialoge.style.display = "none"
+			})
+			show.addEventListener("click", () => {
+ 		    dialoge.style.display = "block"
+			})
+
+			hide.addEventListener("click", () => {
+ 		    dialoge.style.display = "none"
+			})
+		</script>
+	</body>
+</html>
