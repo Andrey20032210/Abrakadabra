@@ -1,24 +1,19 @@
 {
-  "name": "prakt",
+  "name": "agridera",
   "version": "1.0.0",
-  "description": "my shop for prakt",
-  "main": "index.js",
+  "description": "agridera - sseds",
+  "main": "sw.js",
   "dependencies": {
     "http-server": "^0.12.3",
     "jquery": "^3.6.0"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "http-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/Trevertor23/prakt.git"
+    "url": "(https://github.com/Andrey20032210/Abrakadabra)"
   },
-  "author": "trevertor",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/Trevertor23/prakt/issues"
-  },
-  "homepage": "https://gitlab.com/Trevertor23/prakt#readme"
+  "author": "",
+  "license": "ISC"
 }
