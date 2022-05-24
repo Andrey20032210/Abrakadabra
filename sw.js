@@ -7,6 +7,7 @@ self.addEventListener('install', function(event){
                 console.log("precaching");
                 cache.add('/index.html');
                 cache.add('/css/bootstrap.css');
+                cache.add('/css/style.css');
                 cache.add('/images/Logo.png');
                 cache.add('/');
             })
