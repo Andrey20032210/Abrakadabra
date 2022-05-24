@@ -1,0 +1,50 @@
+{
+    "name": "AGRIDERA SHOP",
+    "short_name": "AGRIDERA",
+    "icons":[
+        {
+            "src":"/images/icons/app-icon-16x16.png",
+            "type":"image/png",
+            "sizes":"16x16"
+        },
+        {
+            "src":"/images/icons/app-icon-24x24.png",
+            "type":"image/png",
+            "sizes":"24x24"
+        },
+        {
+            "src":"/images/icons/app-icon-32x32.png",
+            "type":"image/png",
+            "sizes":"32x32"
+        },
+        {
+            "src":"/images/icons/app-icon-64x64.png",
+            "type":"image/png",
+            "sizes":"64x64"
+        },
+        {
+            "src":"/images/icons/app-icon-128x128.png",
+            "type":"image/png",
+            "sizes":"128x128"
+        },
+        {
+            "src":"/images/icons/app-icon-256x256.png",
+            "type":"image/png",
+            "sizes":"256x256"
+        },
+        {
+            "src":"/images/icons/app-icon-512x512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        }
+    ],
+    "start_url":"/index.html",
+    "scopes":".",
+    "display":"standalone",
+    "orientation":"portrait-primary",
+    "background-color":"#fff",
+    "theme-color":"#28a745",
+    "description":"Agridera Seeds and Agriculture Ltd",
+    "dir":"ltr",
+    "lang":"en-US"
+}
